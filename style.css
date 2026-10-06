@@ -1,3 +1,8 @@
+/* Página */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,13 +10,38 @@ body {
     color: #333;
 }
 
+/* Cabeçalho */
 header {
     background-color: #2563eb;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 30px 20px;
 }
 
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+/* Botões */
+nav a {
+    display: inline-block;
+    background-color: white;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Conteúdo */
 main {
     max-width: 800px;
     margin: auto;
@@ -30,13 +60,20 @@ h2 {
 }
 
 h3 {
+    color: #333;
     margin-bottom: 5px;
 }
 
+p {
+    line-height: 1.5;
+}
+
+/* Lista de comandos */
 li {
     margin-bottom: 8px;
 }
 
+/* Rodapé */
 footer {
     background-color: #333;
     color: white;

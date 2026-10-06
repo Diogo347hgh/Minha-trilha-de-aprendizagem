@@ -1,52 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Trilha de Aprendizagem</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Minha Trilha de Aprendizagem</h1>
-        <p>Um pouco sobre o que aprendi estudando Git e GitHub.</p>
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#aprendi">O que aprendi</a>
-            <a href="#comandos">Comandos Git</a>
-        </nav>
-    </header>
 
-    <main>
-        <section id="inicio">
-            <h2>Bem-vindo!</h2>
-            <p>Este projeto foi criado para demonstrar minha evolução no uso de Git, GitHub, HTML e CSS.</p>
-        </section>
+<header id="inicio">
+    <h1>Minha Trilha de Aprendizagem</h1>
+    <p>O que aprendi sobre Git e GitHub</p>
 
-        <section id="aprendi">
-            <h2>O que aprendi</h2>
-            <p>Aprendi a criar repositórios, registrar alterações com commits, trabalhar com branches, realizar merges e publicar projetos no GitHub.</p>
-        </section>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#aprendi">O que aprendi</a>
+        <a href="#comandos">Comandos Git</a>
+    </nav>
+</header>
 
-        <section id="comandos">
-            <h2>Comandos Git</h2>
-            <ul>
-                <li><code>git init</code> — inicia um repositório Git.</li>
-                <li><code>git status</code> — mostra o estado dos arquivos.</li>
-                <li><code>git add .</code> — prepara as alterações para o commit.</li>
-                <li><code>git commit -m "mensagem"</code> — registra uma alteração.</li>
-                <li><code>git branch</code> — lista ou gerencia branches.</li>
-                <li><code>git merge</code> — integra alterações de uma branch.</li>
-                <li><code>git pull</code> — baixa atualizações do repositório remoto.</li>
-                <li><code>git push</code> — envia commits para o GitHub.</li>
-            </ul>
-        </section>
-    </main>
+<main>
 
-    <footer>
-        <p>Minha Trilha de Aprendizagem • Projeto de Git e GitHub</p>
-    </footer>
-    
-    <li><code>git log --oneline</code> — exibe o histórico resumido de commits.</li>
+    <section>
+        <h2>Sobre o projeto</h2>
+        <p>
+            Este site foi criado para apresentar o que aprendi durante
+            meus estudos sobre versionamento, Git e GitHub.
+        </p>
+    </section>
+
+    <section id="aprendi">
+        <h2>O que aprendi</h2>
+
+        <h3>Versionamento</h3>
+        <p>
+            Aprendi que o versionamento permite registrar e acompanhar
+            as alterações feitas em um projeto.
+        </p>
+
+        <h3>Git e GitHub</h3>
+        <p>
+            Git é um sistema de controle de versão. GitHub é uma
+            plataforma usada para armazenar e compartilhar repositórios.
+        </p>
+
+        <h3>Repositórios e commits</h3>
+        <p>
+            Aprendi a criar um repositório com git init, adicionar
+            arquivos e registrar alterações através de commits.
+        </p>
+
+        <h3>Branches e Merge</h3>
+        <p>
+            Aprendi a criar branches para desenvolver funcionalidades
+            e usar git merge para integrar as alterações.
+        </p>
+
+        <h3>GitHub remoto</h3>
+        <p>
+            Aprendi a usar git push para enviar alterações e git pull
+            para receber alterações do GitHub.
+        </p>
+
+        <h3>Clonar e colaborar</h3>
+        <p>
+            Aprendi a usar git clone e que um fluxo simples de colaboração
+            é: pull, editar, commit e push.
+        </p>
+
+        <h3>.gitignore</h3>
+        <p>
+            Aprendi que o .gitignore indica arquivos e pastas que não
+            devem ser versionados.
+        </p>
+
+        <h3>README.md</h3>
+        <p>
+            Aprendi que o README.md é utilizado para explicar e
+            documentar o projeto.
+        </p>
+    </section>
+
+    <section id="comandos">
+        <h2>Comandos Git</h2>
+
+        <ul>
+            <li>git init - inicia um repositório</li>
+            <li>git status - verifica os arquivos</li>
+            <li>git add . - prepara os arquivos</li>
+            <li>git commit -m "mensagem" - cria um commit</li>
+            <li>git log --oneline - mostra o histórico</li>
+            <li>git branch - mostra as branches</li>
+            <li>git merge - integra uma branch</li>
+            <li>git clone - clona um repositório</li>
+            <li>git pull - recebe alterações</li>
+            <li>git push - envia alterações</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>Primeiro projeto - Matéria nova</p>
+</footer>
+
 </body>
 </html>
